@@ -13,4 +13,14 @@ public class HashMapcollection {
 	
     //exercice 19
 	System.out.println("Taille des éléments: " + payeofplayers.size());
+	
+	//exercice 20
+	HashMap<String, String> payeofplayers2 = new HashMap<String, String>();
+	payeofplayers2.putAll(payeofplayers);
+    System.out.println(payeofplayers);
+    
+  //exercice 21
+    
+    payeofplayers2.clear();
+    System.out.println(payeofplayers2);
 }}
